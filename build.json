@@ -1,0 +1,18 @@
+{
+	"language": "phala",
+	"input": {
+		"cmd": "cargo contract build",
+		"vendor": "cargo contract build && cargo clean"
+	},
+	"output": {
+		"extra_hash": {
+			"json_file": "target/ink/phat_hello.json",
+			"json_field": "source.hash"
+		},
+		"files": [
+			"target/ink/phat_hello.contract",
+			"target/ink/phat_hello.wasm",
+			"target/ink/phat_hello.json"
+		]
+	}
+}
