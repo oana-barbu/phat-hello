@@ -2,7 +2,7 @@
 	"language": "phala",
 	"input": {
 		"cmd": "cargo contract build",
-		"vendor": "cargo contract build && cargo clean"
+		"vendor": "cargo fetch"
 	},
 	"output": {
 		"extra_hash": {
